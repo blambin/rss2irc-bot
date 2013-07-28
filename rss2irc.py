@@ -7,7 +7,12 @@ from threading import Timer
 feed_list = ["http://api.twitter.com/1/statuses/user_timeline.rss?screen_name=CiaranmaK"]
 feed_data = []
 feed_hasbeen = []
-configured = False
+configured = True
+net = 'chat.freenode.net'
+port = 6667
+nick = str("rauz")
+channel = str("#ranzbouxcuengh")
+ident = str("blambin")
 
 
 #menu && bot configuration.
