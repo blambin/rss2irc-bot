@@ -4,7 +4,7 @@ import socket, string, feedparser, os, time
 from threading import Timer
 
 #feed_list is a list of all of the rss feeds.
-feed_list = ["http://api.twitter.com/1/statuses/user_timeline.rss?screen_name=CiaranmaK"]
+feed_list = ["http://www.rauz.net.cn/bbs/forum.php?mod=rss&auth=0"]
 feed_data = []
 feed_hasbeen = []
 configured = True
